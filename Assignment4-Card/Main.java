@@ -1,3 +1,12 @@
+/**
+ * @author Roshan Kumar Yadav
+ */
+/*
+ * Name: Roshan Kumar Yadav
+ * PRN: 21070126130
+ * Batch: AIML B3 (21-25)
+ */
+
 // Importing package and class for Scanner
 import java.util.Scanner;
 
