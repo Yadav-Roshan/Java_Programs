@@ -22,6 +22,7 @@ public class Main {
                     Circle circ = new Circle(sc.nextDouble());
                     circ.stateShape("Circle");
                     circ.calculateArea();
+                    circ.calculatePerimeter();
                     break;
 
                 case 2:
@@ -30,6 +31,7 @@ public class Main {
                     Rectangle rec = new Rectangle(sc.nextDouble(), sc.nextDouble());
                     rec.stateShape("Rectangle");
                     rec.calculateArea();
+                    rec.calculatePerimeter();
                     break;
 
                 case 3:
@@ -38,6 +40,7 @@ public class Main {
                     Square sq = new Square(sc.nextFloat());
                     sq.stateShape("Square");
                     sq.calculateArea();
+                    sq.calculatePerimeter();
                     break;
 
                 case 4:
@@ -47,6 +50,7 @@ public class Main {
                     sh.stateShape("Sphere");
                     sh.calculateVolume();
                     sh.calculateArea();
+
                     break;
 
                 case 5:

@@ -15,6 +15,11 @@ public class Pyramid extends Shape implements Volume {
         System.out.println("The Area of Pyramid is: "+ ar);
     }
 
+    @Override
+    public void calculatePerimeter() {
+        System.out.println("No perimeter for Pyramid");
+    }
+
     // Calculating volume of the pyramid overriding the abstract method from Volume Class
     @Override
     public void calculateVolume() {

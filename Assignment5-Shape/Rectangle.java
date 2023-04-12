@@ -15,4 +15,10 @@ public class Rectangle extends Shape{
         double area = this.length * this.breadth;
         System.out.println("The area of Rectangle is " + area);
     }
+
+    @Override
+    public void calculatePerimeter() {
+        double perimeter = 2 * (this.length * this.breadth);
+        System.out.println("The perimeter of Rectangle is " + perimeter);
+    }
 }

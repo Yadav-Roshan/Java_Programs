@@ -13,4 +13,9 @@ public class Square extends Shape {
         double area = Math.pow(this.side,2);
         System.out.println("The Area of Square is "+area);
     }
+    @Override
+    public void calculatePerimeter() {
+        double perimeter = 2 * (this.side * this.side);
+        System.out.println("The perimeter of Square is " + perimeter);
+    }
 }

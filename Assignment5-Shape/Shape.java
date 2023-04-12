@@ -6,4 +6,6 @@ abstract public class Shape {
 
     // Abstract method that needs to be overridden where the class in extended.
     abstract public void calculateArea();
+
+    abstract public void calculatePerimeter();
 }

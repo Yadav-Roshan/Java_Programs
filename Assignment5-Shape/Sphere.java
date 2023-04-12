@@ -19,5 +19,8 @@ public class Sphere extends Shape implements Volume {
         double area = 4 * Math.PI * Math.pow(this.radius, 3);
         System.out.println("The Area of Sphere is: "+ area);
     }
-    
+    @Override
+    public void calculatePerimeter() {
+        System.out.println("No perimeter for Sphere");
+    }
 }
