@@ -19,6 +19,8 @@ This folder contains 16 java files out of which 13 are classes and 3 are interfa
 15.	Float
 16.	Drown
 
+
+
 Main.java does the following functions:
 It executes the display, performSwim, performFly and performQuack methods for all the Duck subclasses MallardDuck, RubberDuck and DecoyDuck.
 
@@ -29,17 +31,25 @@ Duck.java contains:
 4. setQuackBehavior(): Set the variable of QuackBehavior to appropriate class
 5. setSwimBehavior(): Set the variable of SwimBehavior to appropriate class
 
+
+
 MallardDuck.java contains:
 1. display(): Implementation of abstract method of Duck class which tells which duck it is.
 2. MallardDuck(): Constructor of MallardDuck class setting up different behaviors
+
+
 
 RubberDuck.java contains:
 1. display(): Implementation of abstract method of Duck class which tells which duck it is.
 2. RubberDuck(): Constructor of RubberDuck class setting up different behaviors.
 
+
+
 DecoyDuck.java contains:
 1. display(): Implementation of abstract method of Duck class which tells which duck it is.
 2. DecoyDuck(): Constructor of DecoyDuck class setting up different behaviors.
+
+
 
 FlyBehavior.java contains:
   It's an interface with
@@ -50,6 +60,8 @@ FlyWithWings.java contains:
 
 FlyNoWay.java contains:
 1. fly(): Implementation of method fly from FlyBehavior saying this duck can't fly.
+
+
 
 QuackBehavior.java contains:
   It's an interface with
@@ -63,6 +75,8 @@ MuteQuack.java contains:
 
 Squeak.java contains:
 1. quack(): Implementation of method quack from QuackBehavior saying that this duck makes squeak sound
+
+
 
 SwimBehavior.java contains:
   It's an interface with
