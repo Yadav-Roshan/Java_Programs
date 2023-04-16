@@ -1,4 +1,4 @@
-This is the directory for the ##Assignment 6: Duck
+This is the directory for the Assignment 6: Duck
 
 This folder contains 16 java files out of which 13 are classes and 3 are interfaces:
 
@@ -43,33 +43,36 @@ DecoyDuck.java contains:
 
 FlyBehavior.java contains:
   It's an interface with
-1. fly(): Abstract method to be implemented in each class defining the particular swim behavior for ducks
+1. fly(): Abstract method to be implemented in each class defining the particular fly behavior for ducks
 
-Rectangle.java contains three functions:
-1. Rectangle(): Constructor for Rectangle class to take in length and breadth of rectangle
-2. calculateArea(): Calculating area of the rectangle overriding the abstract method from Shape class
-3. calculatePerimeter(): Calculating perimeter of the rectangle overriding the abstract method from Shape class
+FlyWithWings.java contains:
+1. fly(): Implementation of method fly from FlyBehavior saying this duck can fly.
 
-Square.java contains three functions:
-1. Square(): Constructor for Square class to take in side of the square
-2. calculateArea(): Calculating area of the square overriding the abstract method from Shape class
-3. calculatePerimeter(): Calculating perimeter of the square overriding the abstract method from Shape class
+FlyNoWay.java contains:
+1. fly(): Implementation of method fly from FlyBehavior saying this duck can't fly.
 
-Sphere.java contains four functions:
-1. Sphere(): Constructor for Sphere class to take in radius of sphere
-2. culateArea(): Calculating surface area of the sphere overriding the abstract method from Shape class
-3. culateVolume(): Calculating volume of the sphere overriding the abstract method from Volume Class
-4. calculatePerimeter(): Since sphere has no perimeter just overriding the abstract method from Shape class
+QuackBehavior.java contains:
+  It's an interface with
+1. quack(): Abstract method to be implemented in each class defining the particular quack behavior for ducks
 
-Cylinder.java contains four functions:
-1. Cylinder(): Constructor of Cylinder class to take in radius and height of cylinder
-2. calculateArea(): Calculating surface area of the cylinder overriding the abstract method from Shape class
-3. calculateVolume(): Calculating volume of the cylinder overriding the abstract method from Volume Class
-4. calculatePerimeter(): Since sphere has no perimeter just overriding the abstract method from Shape class
+Quack.java contains:
+1. quack(): Implementation of method quack from QuackBehavior saying that this duck makes quack sound
 
-Pyramid.java contains four functions:
-1. Pyramid(): Constructor of Pyramid class tot ake in base and height of pyramid
-2. calculateArea(): Calculating surface area of the pyramid overriding the abstract method from Shape class
-3. calculateVolume(): Calculating volume of the pyramid overriding the abstract method from Volume Class
-4. calculatePerimeter(): Since sphere has no perimeter just overriding the abstract method from Shape class
+MuteQuack.java contains:
+1. quack(): Implementation of method quack from QuackBehavior saying that this duck can't make quack sound.
 
+Squeak.java contains:
+1. quack(): Implementation of method quack from QuackBehavior saying that this duck makes squeak sound
+
+SwimBehavior.java contains:
+  It's an interface with
+1. swim(): Abstract method to be implemented in each class defining the particular swim behavior for ducks
+
+SwimChhapChhap.java contains:
+1. swim(): Implementation of method swim from SwimBehavior saying that this duck can swim.
+
+Float.java contains:
+1. swim(): Implementation of method swim from SwimBehavior saying that this duck can float.
+
+Drown.java contains:
+1. swim(): Implementation of method swim from SwimBehavior saying that this duck can't swim.
