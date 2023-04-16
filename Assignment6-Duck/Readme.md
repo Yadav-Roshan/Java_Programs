@@ -1,4 +1,4 @@
-This is the directory for the ## Assignment 6: Duck
+This is the directory for the ##Assignment 6: Duck
 
 This folder contains 16 java files out of which 13 are classes and 3 are interfaces:
 
